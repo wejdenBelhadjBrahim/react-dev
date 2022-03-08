@@ -45,7 +45,7 @@ export function FirstPage() {
               <div className="row">
                 <div className="col-6 col-sm-6"> </div>
                 <div className="col-6 col-sm-6"> </div>
-              </div>{" "}
+              </div>
               <span className="text-center">Or</span>{" "}
               <Link to="/signin">Sign in</Link>
               <div className="row">
