@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(255, 1, 1, 0.1);
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  width: 420px !important;
+  margin: 0 auto;
+}
+
+.signup {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 10px 50px;
+}
+
+.h5 {
+  color: #ff0147;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+.small {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+Input {
+  width: 100%;
+  display: block;
+  margin-bottom: 7px;
+}
+
+.form-control {
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.075);
+  letter-spacing: 1px;
+}
+
+.form-control:focus {
+  border-radius: 30px;
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.075);
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  margin: 5px;
+
+  background: -webkit-linear-gradient(
+    left,
+    rgba(249, 0, 104, 1) 0%,
+    rgba(247, 117, 24, 1) 100%
+  );
+}
+
+.text-left {
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 400;
+}
+
+.text-right {
+  color: #ff0147;
+  font-weight: bold;
+}
+
+.span.text-center {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.fab {
+  padding: 15px;
+  font-size: 23px;
+}
+
+.fa-facebook {
+  color: blue;
+}
+
+.fa-twitter {
+  color: blue;
+}
+
+.fa-linkedin {
+  color: #18b1c0;
+}
